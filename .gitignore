@@ -1,0 +1,18 @@
+node_modules
+
+.bsb.lock
+.cache/
+.merlin
+
+*.bs.js
+*.swp
+
+lib/
+public/
+
+# Ignore Reason output files
+src/components/**/*.js
+src/pages/**/*.js
+
+# Files needed for JS interopt
+!src/pages/index.js
