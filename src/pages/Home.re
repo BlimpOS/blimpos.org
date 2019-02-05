@@ -1,15 +1,8 @@
-let component = ReasonReact.statelessComponent("Home")
-
-let s = ReasonReact.string
+let component = ReasonReact.statelessComponent("Home");
 
 let make = _children => {
   ...component,
-  render: (_self) =>
-    <Layout>
-      <div>
-        ("BlimpOS" |> s)
-      </div>
-    </Layout>
-}
+  render: _self => <Layout> <Logo /> </Layout>,
+};
 
-let default = ReasonReact.wrapReasonForJs(~component, _jsProps => make([||]))
+let default = ReasonReact.wrapReasonForJs(~component, _jsProps => make([||]));

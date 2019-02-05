@@ -2,7 +2,7 @@
   "name": "reason-conf",
   "reason": { "react-jsx": 2 },
   "refmt": 3,
-  "bs-dependencies": ["reason-react"],
+  "bs-dependencies": ["bs-css", "reason-react"],
   "sources": {
     "dir": "src",
     "subdirs": true
