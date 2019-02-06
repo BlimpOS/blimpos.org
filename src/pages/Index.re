@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent("Home");
+let component = ReasonReact.statelessComponent("index");
 
 module Helmet = Gatsby.Helmet;
 

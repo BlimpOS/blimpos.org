@@ -1,8 +1,9 @@
 {
-  "name": "reason-conf",
+  "name": "blimpos.org",
   "reason": { "react-jsx": 2 },
   "refmt": 3,
   "bs-dependencies": ["bs-css", "reason-react"],
+  "suffix": ".bs.js",
   "sources": {
     "dir": "src",
     "subdirs": true
