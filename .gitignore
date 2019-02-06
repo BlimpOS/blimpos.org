@@ -13,6 +13,7 @@ public/
 # Ignore Reason output files
 src/components/**/*.js
 src/pages/**/*.js
+src/utils/**/*.js
 
 # Files needed for JS interopt
 !src/pages/index.js
